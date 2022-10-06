@@ -49,3 +49,4 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin() , new TerserWebpackPlugin({})],
     },
   };
+  

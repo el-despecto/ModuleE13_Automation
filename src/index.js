@@ -28,3 +28,4 @@ function getJson() {
     .catch(() => window.alert(`Нет связи с json-server! Запустите сервер командой:\n json-server --watch database.json`));
 }
 btn.addEventListener('click', getJson);
+
